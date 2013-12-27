@@ -4617,4 +4617,11 @@ def grs(JD):
 
 	return grsPos
 
-
+#print the position of the Great Red Spot at midnight of 1/1/1861
+print "Longitude of GRS with respect to the Jovian central meridian viewed from Earth at 1/1/1861 0:0:0 UT: " + str(grs(2400776.5))
+print
+#position of the GRS at midnight of 1/1/2014
+print "Longitude of GRS with respect to the Jovian central meridian viewed from Earth at 1/1/2014 0:0:0 UT: " + str(grs(2456658.5))
+print
+#position of the GRS at Tau o' clock on Pi Day 2014
+print "Longitude of GRS with respect to the Jovian central meridian viewed from Earth at 3/14/2014 6:28:0 UT: " + str(grs(2456730.769444))
